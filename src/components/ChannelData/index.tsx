@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaAt } from 'react-icons/fa';
-import ChannelMessage from '../ChannelMessage';
+import ChannelMessage, { Mention } from '../ChannelMessage';
 
 import { Container, Messages, InputWrapper, Input } from './styles';
 
@@ -10,9 +10,198 @@ const ChannelData: React.FC = () => {
     <Container>
 
       <Messages>
-        <ChannelMessage author="Janaina Aparecida" content="Calor bem melhor que frio né" date="20/09/2021" isBot />
-        <ChannelMessage author="Ronaldo Sena" content="Calor bem melhor que frio né" date="20/09/2021" />
-        <ChannelMessage author="Guilherme Dvan" content="Calor bem melhor que frio né" date="20/09/2021" />
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
+        <ChannelMessage author="Janaina Alves" date="20/09/2021" isBot content={
+          <>
+            <Mention>
+              @FranMoreira
+            </Mention>, calor bem melhor que frio né
+          </>
+        } />
+
       </Messages>
 
       <InputWrapper>

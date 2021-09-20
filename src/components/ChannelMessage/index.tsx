@@ -3,6 +3,8 @@ import { } from 'react-icons/fa';
 
 import { Container, Avatar, Message, Header, Content } from './styles';
 
+export { Mention } from './styles';
+
 export interface Props {
   author: string;
   date: string;
