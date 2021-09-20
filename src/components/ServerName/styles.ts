@@ -12,15 +12,19 @@ export const Container = styled.div`
   z-index: 2;
 `;
 
-export const Title = styled.div`
+export const Title = styled.h1`
   font-size: 16px;
   font-weight: bold;
-  
+
   color: var(--white);
 `;
 
 
 export const ExpandIcon = styled.div`
+  color: var(--white);
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
